@@ -1,0 +1,313 @@
+/* geral */
+html,
+body {
+  height: 100%;
+}
+
+body {
+ 
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.conteudo-scroll{
+  background: #d4edda;
+  max-height: 400px;
+  overflow:auto; 
+}
+
+@media (min-width:400px) and (max-width: 575px){
+  .card{
+    width: 37%;
+  }
+  
+}
+@media (min-width:767px) and (max-width: 991px){
+  .card{
+    width: 37%;
+  }
+  
+}
+
+.bg-scroll{
+  border-radius: 20px;
+  background: #d4edda;
+}
+::-webkit-scrollbar-track {
+  background-color: #d4edda;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: #d4edda;
+}
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 40px;
+}
+.msg{
+  background: #d4edda;
+  color:#17842A;
+  border: 1px solid #c3e6cb;
+  padding: 10px;
+}
+.error{
+  background: #fe5050;
+  color: white;
+  border: 1px solid #c3e6cb;
+  padding: 10px;
+}
+/* formas */
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin1 {
+  width: 100%;
+  max-width: 550px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  
+}
+
+#floatingPassword1{
+  border-right: none;
+}
+
+.popoveres{
+  cursor: pointer;
+}
+
+#olho{
+
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: none;
+  background-color: white;
+
+
+}
+
+/* Card */
+.card{
+  max-width: 220px;
+
+}
+
+.card-front{
+  height: 110px;
+  max-height: 110px;
+}
+
+.form-signin .label_left{
+   text-align: left;
+}
+.floatingInput2{
+  width: 100%;
+}
+.label-titulo{
+  box-align: center;
+}
+
+/* select */
+.div-select{
+  width: 100%;
+  max-width: 550px;
+}
+/* radius geral */
+.radius_campos {
+    border-radius: 40px;
+}
+/* textos padrão */
+/* Alterando a classe padrão */
+
+.text-success {
+  color: #17842A;
+}
+/* Alterando a classe padrão */
+.text-secondary{
+  color: #61F27A !important;
+}
+/* Criando uma nova cor padrão */
+.text-gray{
+  color: #585858;
+}  
+/* Criando uma nova cor padrão */
+
+.texto_verde_claro{
+  color:#00FF29;
+}
+.text-category{
+  font-size: small;
+}
+/* bg padrão */
+.bg-gray{ 
+  background-color: #585858; 
+}
+/* Alterando a classe padrão */
+
+.bg-secondary{
+  background-color: #61F27A;
+}
+/* Alterando a classe padrão */
+
+.btn-secondary{
+  background-color: #61F27A;
+  color: #17842A;
+}
+
+/* Alterando a classe padrão */
+.bg-success{
+    color: #17842A;
+}
+/* Alterando a classe padrão */
+
+.bg-info{
+  color: #00A3FF;
+}
+/* cabeçalho */
+.cabecalho{
+    margin-top: -40px;
+}
+
+/* span de seleção */
+.span_de_selecao{
+    border-color: #00FF29;
+}
+/* footer */
+.link_diretoria:hover{
+  color: #61F27A;
+}
+.email_footer{
+  margin-top: -15px;
+  margin-bottom: -5px;
+}
+/* Dív do título do card */
+.div-titulo{
+  background-color: #E7E7E7;
+}
+
+/* geral botão back */
+.botão-voltar{
+  color:#00FF29;
+}
+.botão-voltar:hover{
+  color: #17842A;
+}
+/* variavel geral */
+.borda-verde-claro{
+  border-color:#00FF29 !important;
+}
+
+/* mensagem da tela de log sobre aviso de exclusão */
+.texto-aviso-de-tempo-de-log{
+  background-color: #DBFEE1;
+}
+.nav-dos-botoes-entrar-cadastrar{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: right;
+
+}
+
+.navbar-scrollspay{
+  max-height: 800px;
+}
+.bi-eye:hover{
+ /* color: #00FF29; */
+ color: white;
+ -webkit-filter: drop-shadow(5px 5px 5px white);
+  filter: drop-shadow(0px 0px 10px white);
+  cursor: pointer;
+}
+/* icones dos cards */
+.botao_edit_card{
+  color: white;
+  filter: drop-shadow(0px 0px 10px white);
+  cursor: pointer;
+}
+
+.bi-trash:hover{
+  /* color: red;
+  filter: drop-shadow(0px 0px 10px white); */
+  cursor: pointer;
+}
+
+.btn-without-border{
+    border: none;
+    outline: none;
+}
+.trash2:hover{
+  color: black;
+  filter: drop-shadow(0px 0px 10px white);
+  cursor: pointer;
+}
+
+.ul_cards{
+  border: solid 2px;
+}
+
+@media (min-width: 200px) and (max-width: 425px) {
+  
+  #div_bemvindo{
+    font-size: 0.7rem;
+  }
+  #div_auth{
+    font-size: 0.7rem;
+  }
+
+}
+
+@media (min-width: 426px) and (max-width: 1023px) {
+  #div_bemvindo{
+    font-size: 1.0rem;
+  }
+
+  #div_auth{
+    font-size: 1.0rem;
+  }
+}
+
+.nav_logo{
+  padding-top: 20px;
+}
+
+
+
+
+
+
+/* .zoom:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+} */
+
+/* .logo .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} */
